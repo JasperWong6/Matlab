@@ -1,0 +1,8 @@
+% 读取数据文件
+data = load('data.txt');
+
+% 计算每行数据的平均值
+mean_data = mean(data, 2);
+
+% 输出结果
+disp(mean_data);
